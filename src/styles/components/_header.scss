@@ -1,0 +1,25 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+
+
+.header{
+    background-color: brown;
+    justify-content: center;
+    justify-content: center;
+    display: flex;
+    h3{
+    font-family: 'Monoton', cursive;
+    justify-content: center;
+    position: absolute;
+    position: fixed;
+    padding: 5px;
+    margin-left: 20px;
+    top: 2px;
+    }
+   p{
+    justify-content: center;
+    position: absolute;
+    top: 45px;
+   }
+}
