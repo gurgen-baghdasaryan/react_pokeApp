@@ -7,7 +7,7 @@ import axios from "axios";
 
 const Main = () => {
 
-  const [pokemons, setPokemon] = useState([]) //{}
+  const [pokemons, setPokemon] = useState([]) 
 
   const [search, setSearch] = useState('') 
 
