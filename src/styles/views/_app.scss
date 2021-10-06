@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
 .App {
+    font-family: 'Urbanist', sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: yellow;
 }
+
 img{
     object-fit: contain !important;
 }
