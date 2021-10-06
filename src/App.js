@@ -18,6 +18,7 @@ function App() {
         <Main/>
       </BrowserRouter>
       <Footer/>
+      
     </div>
 
   );

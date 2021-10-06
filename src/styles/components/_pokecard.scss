@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    @media only screen and (max-width:640px) {
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+  

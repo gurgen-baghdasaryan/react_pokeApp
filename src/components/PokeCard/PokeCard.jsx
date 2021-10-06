@@ -8,6 +8,7 @@ import { CardActionArea } from '@mui/material';
 const PokeCard = (props) => {
   const {name} = props.data;
   return (
+    <section className="container">
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
@@ -23,6 +24,7 @@ const PokeCard = (props) => {
         </CardContent>
       </CardActionArea>
     </Card>
+    </section>
   );
 }
 export default PokeCard;
