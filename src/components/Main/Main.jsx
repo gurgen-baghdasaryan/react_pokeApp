@@ -38,14 +38,15 @@ const Main = () => {
     <div className="main">
 
       <h1>Welcome To Pugémon</h1>
-
+      
+      <h3>Search your Pokémon here</h3>
+      
       <DebounceInput
         minLength={1}
         debounceTimeout={300}
         onChange={event => { setSearch(event.target.value) }} />
 
-      <h3>Search your Pugémon here</h3>
-
+      <h4>You can also search by number</h4>
       <div className="pokemonsConteiner">{renderPokemons()}</div>
 
     </div>

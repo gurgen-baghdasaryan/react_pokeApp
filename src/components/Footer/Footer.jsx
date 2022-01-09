@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
 
       
-      <div><a href="https://github.com/gugohh">Pugémon By Gugohh</a></div>
+      <div><a href="https://github.com/gurgen-baghdasaryan">Pugémon By Gugohh</a></div>
     
     
   
